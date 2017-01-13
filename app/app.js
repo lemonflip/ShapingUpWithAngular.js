@@ -28,14 +28,6 @@
 
   });
 
-  app.controller("HelloController", function() {
-    this.helloName = '';
-
-    this.UpdateName = function(userName) {
-      this.helloName = userName;
-    };
-  });
-
   var gems = [{
     name: 'Azurite',
     description: "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
