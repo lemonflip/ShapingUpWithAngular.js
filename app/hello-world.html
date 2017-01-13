@@ -14,14 +14,13 @@
     <script src="products.js"></script>
   </head>
   <body>
-    <div class="container">
-      <form name="introductionForm" role="form" ng-controller="HelloController as hello">
+    
+    <form name="introductionForm" role="form" ng-controller="HelloController as hello">
         <h1 ng-show="hello.helloName">Hello, {{hello.helloName}}!</h1>
         <h2>What is your name?</h2>
         <fieldset class="form-group">
           <input class="form-control" placeholder="Fantasia" title="Enter your name" ng-model="hello.helloName" />
         </fieldset>
-      </form>
-    </div>
+    </form>
   </body>
 </html>
